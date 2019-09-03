@@ -1,0 +1,21 @@
+
+Currently Loaded Modules:
+  1) intel/17.0.1.132   3) xalt (S)   5) gcc/5.2.0      7) fftw/3.3.7
+  2) impi/2017.1.132    4) rcac       6) boost/1.64.0
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/wen94/scripts/local/lib/python2.7/site-packages/casm/vaspwrapper/relax.py", line 391, in run
+    (status, task) = relaxation.run()
+  File "/home/wen94/scripts/local/lib/python2.7/site-packages/vasp/relax.py", line 249, in run
+    result = vasp.run(self.rundir[-1], npar=self.settings["npar"],ncore=self.settings["ncore"],command=self.settings["vasp_cmd"],ncpus=self.settings["ncpus"],kpar=self.settings["kpar"],err_types=self.settings["err_types"])
+  File "/home/wen94/scripts/local/lib/python2.7/site-packages/vasp/vasp.py", line 640, in run
+    err = error_check(jobdir, os.path.join(jobdir,stdout), err_types)
+  File "/home/wen94/scripts/local/lib/python2.7/site-packages/vasp/vasp.py", line 523, in error_check
+    sout = open(stdoutfile, 'r')
+IOError: [Errno 116] Stale file handle: u'/scratch/halstead/w/wen94/data_h/Ni3AlTi_supercell/training_data/SCEL2_1_1_2_0_0_0/9398/calctype.default/run.11/std.out'

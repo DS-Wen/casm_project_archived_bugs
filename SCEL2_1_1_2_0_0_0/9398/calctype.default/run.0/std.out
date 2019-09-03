@@ -1,0 +1,261 @@
+ running on   20 total cores
+ distrk:  each k-point on   20 cores,    1 groups
+ distr:  one band on    5 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.1 05Feb16 (build Jan 17 2017 23:57:57) complex                        
+  
+ POSCAR found type information on POSCAR  Al Ni Ti
+ POSCAR found :  3 types and      64 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind: At the moment your POTCAR file does not contain real space       |
+|       projectors, and has to be modified,  BUT if you                       |
+|      want to do an extremely  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1     0.185104278017E+04    0.18510E+04   -0.25237E+05100672   0.170E+03
+RMM:   2     0.385996273265E+01   -0.18472E+04   -0.41836E+04100672   0.361E+02
+RMM:   3    -0.150871088580E+03   -0.15473E+03   -0.46876E+03100672   0.173E+02
+RMM:   4    -0.328078242519E+03   -0.17721E+03   -0.10432E+03100672   0.842E+01
+RMM:   5    -0.377030819921E+03   -0.48953E+02   -0.44443E+02100672   0.508E+01
+RMM:   6    -0.404235083970E+03   -0.27204E+02   -0.26525E+02100672   0.397E+01
+RMM:   7    -0.418629752349E+03   -0.14395E+02   -0.24503E+02100672   0.346E+01
+RMM:   8    -0.429877273797E+03   -0.11248E+02   -0.14844E+02100672   0.283E+01
+RMM:   9    -0.442454231708E+03   -0.12577E+02   -0.43729E+02322240   0.340E+01
+RMM:  10    -0.456070886817E+03   -0.13617E+02   -0.18583E+02363486   0.123E+01
+RMM:  11    -0.461789470085E+03   -0.57186E+01   -0.61750E+01364326   0.675E+00
+RMM:  12    -0.465518127310E+03   -0.37287E+01   -0.35342E+01364846   0.434E+00    0.851E+01
+RMM:  13    -0.471203866935E+03   -0.56857E+01   -0.88187E+02212090   0.758E+01    0.765E+01
+RMM:  14    -0.562318536976E+03   -0.91115E+02   -0.54924E+02227732   0.469E+01    0.182E+02
+RMM:  15    -0.107206880502E+04   -0.50975E+03   -0.47425E+02325597   0.269E+01    0.228E+02
+RMM:  16    -0.611577564465E+03    0.46049E+03   -0.14127E+02247676   0.223E+01    0.169E+02
+RMM:  17    -0.437193498185E+03    0.17438E+03   -0.70924E+01232606   0.156E+01    0.510E+01
+RMM:  18    -0.452993539478E+03   -0.15800E+02   -0.12699E+02212689   0.219E+01    0.782E+01
+RMM:  19    -0.436076341334E+03    0.16917E+02   -0.59600E+01215421   0.158E+01    0.749E+01
+RMM:  20    -0.414403093237E+03    0.21673E+02   -0.31253E+01215512   0.113E+01    0.310E+01
+RMM:  21    -0.407186885831E+03    0.72162E+01   -0.12962E+01213868   0.756E+00    0.242E+01
+RMM:  22    -0.405140451356E+03    0.20464E+01   -0.19678E+00220555   0.294E+00    0.195E+01
+RMM:  23    -0.405123058403E+03    0.17393E-01   -0.22651E-01332450   0.539E-01    0.197E+01
+RMM:  24    -0.404989252190E+03    0.13381E+00   -0.77147E-01237041   0.168E+00    0.188E+01
+RMM:  25    -0.404347594932E+03    0.64166E+00   -0.17225E+00233291   0.247E+00    0.168E+01
+RMM:  26    -0.404250582661E+03    0.97012E-01   -0.21388E+00227844   0.289E+00    0.132E+01
+RMM:  27    -0.406492159763E+03   -0.22416E+01   -0.24342E+00241743   0.279E+00    0.172E+01
+RMM:  28    -0.414482403914E+03   -0.79902E+01   -0.34836E+00239918   0.348E+00    0.464E+01
+RMM:  29    -0.409139027414E+03    0.53434E+01   -0.21365E+00221231   0.297E+00    0.194E+01
+RMM:  30    -0.409428183848E+03   -0.28916E+00   -0.43190E+00233439   0.376E+00    0.140E+01
+RMM:  31    -0.409032230619E+03    0.39595E+00   -0.12742E+00245860   0.206E+00    0.133E+01
+RMM:  32    -0.409492508277E+03   -0.46028E+00   -0.41479E-01262246   0.119E+00    0.140E+01
+RMM:  33    -0.409884467232E+03   -0.39196E+00   -0.24609E-01256555   0.908E-01    0.132E+01
+RMM:  34    -0.410700041726E+03   -0.81557E+00   -0.99626E-01220067   0.194E+00    0.128E+01
+RMM:  35    -0.411124027043E+03   -0.42399E+00   -0.79352E-01225789   0.163E+00    0.109E+01
+RMM:  36    -0.411208629755E+03   -0.84603E-01   -0.47033E-01230499   0.125E+00    0.967E+00
+RMM:  37    -0.410907401850E+03    0.30123E+00   -0.30950E-01254062   0.963E-01    0.748E+00
+RMM:  38    -0.410708340668E+03    0.19906E+00   -0.20978E-01274712   0.766E-01    0.585E+00
+RMM:  39    -0.410516629380E+03    0.19171E+00   -0.11414E-01278747   0.570E-01    0.459E+00
+RMM:  40    -0.410264882054E+03    0.25175E+00   -0.83418E-02273823   0.474E-01    0.339E+00
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 16
+RMM:  41    -0.410113125882E+03    0.15176E+00   -0.42408E-02273597   0.347E-01    0.253E+00
+RMM:  42    -0.410056505703E+03    0.56620E-01   -0.12145E-02298972   0.158E-01    0.221E+00
+RMM:  43    -0.410022952913E+03    0.33553E-01   -0.41402E-03267654   0.107E-01    0.194E+00
+RMM:  44    -0.409952389831E+03    0.70563E-01   -0.97677E-03261946   0.168E-01    0.130E+00
+RMM:  45    -0.409916412895E+03    0.35977E-01   -0.98642E-03261137   0.177E-01    0.752E-01
+RMM:  46    -0.409902841603E+03    0.13571E-01   -0.42779E-03277283   0.106E-01    0.488E-01
+RMM:  47    -0.409896135246E+03    0.67064E-02   -0.38689E-03266426   0.105E-01    0.253E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 50
+RMM:  48    -0.409895751637E+03    0.38361E-03   -0.11330E-03258627   0.611E-02    0.174E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 33
+RMM:  49    -0.409896059283E+03   -0.30765E-03   -0.96733E-04261399   0.467E-02    0.113E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 26
+RMM:  50    -0.409896277125E+03   -0.21784E-03   -0.20994E-04147877   0.261E-02    0.121E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 18
+RMM:  51    -0.409896356785E+03   -0.79660E-04   -0.13035E-04140735   0.243E-02
+   1 F= -.40989636E+03 E0= -.40993873E+03  d E =-.409896E+03  mag=    -0.0068
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.417E+00 g(S)=  0.131E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.548E+00
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.416004283707E+03   -0.61080E+01   -0.16077E+02212047   0.279E+01    0.175E+01
+RMM:   2    -0.428109060259E+03   -0.12105E+02   -0.67453E+01224290   0.183E+01    0.486E+01
+RMM:   3    -0.503363327416E+03   -0.75254E+02   -0.45986E+01222609   0.140E+01    0.108E+02
+RMM:   4    -0.414307411680E+03    0.89056E+02   -0.76850E+00243634   0.503E+00    0.153E+01
+RMM:   5    -0.412940465609E+03    0.13669E+01   -0.91385E+00223428   0.610E+00    0.153E+01
+RMM:   6    -0.410639925989E+03    0.23005E+01   -0.24618E+00213547   0.371E+00    0.555E+00
+RMM:   7    -0.410438671127E+03    0.20125E+00   -0.58136E-01224173   0.149E+00    0.506E+00
+RMM:   8    -0.410202006985E+03    0.23666E+00   -0.30050E-01227120   0.114E+00    0.143E+00
+RMM:   9    -0.410212539655E+03   -0.10533E-01   -0.13553E-01244322   0.691E-01    0.178E+00
+RMM:  10    -0.410197893711E+03    0.14646E-01   -0.10003E-01236008   0.650E-01    0.126E+00
+RMM:  11    -0.410185898845E+03    0.11995E-01   -0.27471E-02238856   0.336E-01    0.745E-01
+RMM:  12    -0.410189139126E+03   -0.32403E-02   -0.13752E-02236199   0.231E-01    0.957E-01
+RMM:  13    -0.410189396345E+03   -0.25722E-03   -0.71036E-03235075   0.169E-01    0.851E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 83
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 26
+RMM:  14    -0.410186584703E+03    0.28116E-02   -0.20398E-03237322   0.826E-02    0.754E-01
+RMM:  15    -0.410183576801E+03    0.30079E-02   -0.21705E-03233322   0.956E-02    0.495E-01
+RMM:  16    -0.410182217195E+03    0.13596E-02   -0.19153E-03227377   0.908E-02    0.324E-01
+RMM:  17    -0.410180959085E+03    0.12581E-02   -0.15078E-03229092   0.754E-02    0.146E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 74
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 76
+RMM:  18    -0.410180893062E+03    0.66023E-04   -0.21274E-04139274   0.271E-02
+   2 F= -.41018089E+03 E0= -.41022021E+03  d E =-.284536E+00  mag=    -0.0032
+ trial-energy change:   -0.284536  1 .order   -0.301168   -0.547987   -0.054348
+ step:   1.1432(harm=  1.1101)  dis= 0.03974  next Energy=  -410.184735 (dE=-0.288E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.410303175564E+03   -0.12222E+00   -0.32528E+00212687   0.384E+00    0.258E+00
+RMM:   2    -0.410547697622E+03   -0.24452E+00   -0.14045E+00218676   0.267E+00    0.592E+00
+RMM:   3    -0.410329623625E+03    0.21807E+00   -0.71416E-01209415   0.202E+00    0.245E+00
+RMM:   4    -0.410252870246E+03    0.76753E-01   -0.11791E-01239211   0.625E-01    0.178E+00
+RMM:   5    -0.410181816710E+03    0.71054E-01   -0.34502E-02216498   0.394E-01    0.565E-01
+RMM:   6    -0.410179537089E+03    0.22796E-02   -0.10946E-02220184   0.222E-01    0.465E-01
+RMM:   7    -0.410179409529E+03    0.12756E-03   -0.79715E-03227278   0.184E-01    0.431E-01
+RMM:   8    -0.410177469568E+03    0.19400E-02   -0.30608E-03230878   0.115E-01    0.179E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 82
+RMM:   9    -0.410177435016E+03    0.34552E-04   -0.14214E-03218851   0.787E-02    0.197E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 83
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 27
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 30
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 30
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 27
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 27
+RMM:  10    -0.410177338273E+03    0.96743E-04   -0.55388E-04188263   0.515E-02
+   3 F= -.41017734E+03 E0= -.41021601E+03  d E =-.280981E+00  mag=    -0.0023
+ curvature:  -0.50 expect dE=-0.504E-01 dE for cont linesearch -0.604E-04
+ trial: gam= 0.16731 g(F)=  0.390E-01 g(S)=  0.608E-01 ort = 0.810E-02 (trialstep = 0.103E+01)
+ search vector abs. value=  0.118E+00
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.411925706677E+03   -0.17483E+01   -0.37103E+01216945   0.137E+01    0.924E+00
+RMM:   2    -0.415170755994E+03   -0.32450E+01   -0.18208E+01218009   0.991E+00    0.179E+01
+RMM:   3    -0.421807408223E+03   -0.66367E+01   -0.95480E+00210777   0.679E+00    0.533E+01
+RMM:   4    -0.410892151480E+03    0.10915E+02   -0.12352E+00256698   0.205E+00    0.534E+00
+RMM:   5    -0.410825568212E+03    0.66583E-01   -0.58211E-01225086   0.158E+00    0.380E+00
+RMM:   6    -0.410578516710E+03    0.24705E+00   -0.26941E-01226006   0.112E+00    0.326E+00
+RMM:   7    -0.410417982532E+03    0.16053E+00   -0.14960E-01236733   0.841E-01    0.280E+00
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 15
+RMM:   8    -0.410406062988E+03    0.11920E-01   -0.78226E-02241079   0.595E-01    0.175E+00
+RMM:   9    -0.410379988110E+03    0.26075E-01   -0.23273E-02246125   0.304E-01    0.164E+00
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 21
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 26
+RMM:  10    -0.410352366242E+03    0.27622E-01   -0.85338E-03245827   0.185E-01    0.145E+00
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 75
+RMM:  11    -0.410336668002E+03    0.15698E-01   -0.38025E-03260377   0.110E-01    0.127E+00
+RMM:  12    -0.410305996269E+03    0.30672E-01   -0.57394E-03252470   0.151E-01    0.106E+00
+RMM:  13    -0.410292342942E+03    0.13653E-01   -0.28164E-03253870   0.101E-01    0.898E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 28
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 64
+RMM:  14    -0.410283983701E+03    0.83592E-02   -0.10291E-03258649   0.505E-02    0.776E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 31
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 34
+RMM:  15    -0.410281905944E+03    0.20778E-02   -0.23174E-04164507   0.285E-02    0.762E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 24
+RMM:  16    -0.410276795108E+03    0.51108E-02   -0.43318E-04173362   0.387E-02    0.683E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 17
+RMM:  17    -0.410262693666E+03    0.14101E-01   -0.20012E-03249040   0.815E-02    0.397E-01
+RMM:  18    -0.410258599255E+03    0.40944E-02   -0.93953E-04245942   0.546E-02    0.252E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 20
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 22
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 19
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 49
+RMM:  19    -0.410257085194E+03    0.15141E-02   -0.42157E-04196609   0.322E-02    0.159E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 22
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 16
+RMM:  20    -0.410256123962E+03    0.96123E-03   -0.29711E-04152183   0.271E-02    0.736E-02
+RMM:  21    -0.410255988289E+03    0.13567E-03   -0.13420E-04128031   0.273E-02    0.487E-02
+RMM:  22    -0.410255952406E+03    0.35883E-04   -0.92208E-05127471   0.218E-02
+   4 F= -.41025595E+03 E0= -.41029287E+03  d E =-.786141E-01  mag=    -0.0006
+ trial-energy change:   -0.078614  1 .order   -0.061233   -0.104030   -0.018437
+ step:   1.1237(harm=  1.2502)  dis= 0.02553  next Energy=  -410.256818 (dE=-0.795E-01)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.410271043808E+03   -0.15056E-01   -0.31402E-01215537   0.128E+00    0.867E-01
+RMM:   2    -0.410308251470E+03   -0.37208E-01   -0.15743E-01220816   0.931E-01    0.201E+00
+RMM:   3    -0.410292460703E+03    0.15791E-01   -0.84202E-02210118   0.649E-01    0.117E+00
+RMM:   4    -0.410261950058E+03    0.30511E-01   -0.17062E-02226608   0.249E-01    0.535E-01
+RMM:   5    -0.410258376655E+03    0.35734E-02   -0.41126E-03213487   0.147E-01    0.231E-01
+RMM:   6    -0.410257381323E+03    0.99533E-03   -0.14763E-03206516   0.834E-02    0.140E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 15
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 23
+RMM:   7    -0.410257636075E+03   -0.25475E-03   -0.98566E-04210894   0.625E-02    0.174E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 19
+RMM:   8    -0.410257247123E+03    0.38895E-03   -0.50461E-04181113   0.518E-02    0.757E-02
+RMM:   9    -0.410257193094E+03    0.54029E-04   -0.95381E-05130991   0.263E-02
+   5 F= -.41025719E+03 E0= -.41029397E+03  d E =-.798548E-01  mag=    -0.0004
+ curvature:  -0.49 expect dE=-0.708E-02 dE for cont linesearch -0.154E-02
+ ZBRENT: increasing intervall
+ opt :   1.3138  next Energy=  -410.261103 (dE=-0.838E-01)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.410312409902E+03   -0.55163E-01   -0.12570E+00215552   0.256E+00    0.175E+00
+RMM:   2    -0.410460967583E+03   -0.14856E+00   -0.64611E-01221126   0.188E+00    0.396E+00
+RMM:   3    -0.410392570895E+03    0.68397E-01   -0.34181E-01209119   0.132E+00    0.254E+00
+RMM:   4    -0.410276827724E+03    0.11574E+00   -0.64561E-02233472   0.482E-01    0.112E+00
+RMM:   5    -0.410266129326E+03    0.10698E-01   -0.20959E-02218146   0.317E-01    0.604E-01
+RMM:   6    -0.410257580187E+03    0.85491E-02   -0.81376E-03210004   0.197E-01    0.298E-01
+RMM:   7    -0.410258356197E+03   -0.77601E-03   -0.44679E-03228479   0.130E-01    0.382E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 25
+RMM:   8    -0.410256762903E+03    0.15933E-02   -0.25249E-03224263   0.108E-01    0.165E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 26
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 26
+RMM:   9    -0.410256496838E+03    0.26607E-03   -0.52397E-04186462   0.502E-02    0.119E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 83
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 29
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 26
+RMM:  10    -0.410256448131E+03    0.48707E-04   -0.17948E-04145042   0.339E-02
+   6 F= -.41025645E+03 E0= -.41029295E+03  d E =-.791099E-01  mag=    -0.0003
+ curvature:  -1.24 expect dE=-0.169E-01 dE for cont linesearch -0.579E-03
+ trial: gam=-0.01694 g(F)=  0.117E-01 g(S)=  0.191E-02 ort = 0.740E-02 (trialstep = 0.109E+01)
+ search vector abs. value=  0.134E-01
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.410390348462E+03   -0.13385E+00   -0.43738E+00212287   0.388E+00    0.208E+00
+RMM:   2    -0.410504071245E+03   -0.11372E+00   -0.85934E-01225357   0.188E+00    0.434E+00
+RMM:   3    -0.410419626176E+03    0.84445E-01   -0.48392E-01209572   0.156E+00    0.289E+00
+RMM:   4    -0.410292778121E+03    0.12685E+00   -0.83691E-02240049   0.543E-01    0.143E+00
+RMM:   5    -0.410272756957E+03    0.20021E-01   -0.32334E-02220652   0.386E-01    0.680E-01
+RMM:   6    -0.410260837258E+03    0.11920E-01   -0.11332E-02217010   0.229E-01    0.376E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 26
+RMM:   7    -0.410260892318E+03   -0.55060E-04   -0.53418E-03237577   0.144E-01    0.396E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 31
+RMM:   8    -0.410259553637E+03    0.13387E-02   -0.29949E-03229099   0.114E-01    0.222E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 31
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 26
+RMM:   9    -0.410259289902E+03    0.26374E-03   -0.90015E-04222146   0.616E-02    0.157E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 78
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 22
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3 23
+RMM:  10    -0.410259224239E+03    0.65663E-04   -0.34835E-04167361   0.421E-02
+   7 F= -.41025922E+03 E0= -.41029598E+03  d E =-.277611E-02  mag=    -0.0002
+ trial-energy change:   -0.002776  1 .order   -0.009305   -0.014637   -0.003973
+ step:   1.4901(harm=  1.4901)  dis= 0.00794  next Energy=  -410.266493 (dE=-0.100E-01)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+RMM:   1    -0.410274821630E+03   -0.15532E-01   -0.60407E-01211689   0.145E+00    0.809E-01
+RMM:   2    -0.410292071359E+03   -0.17250E-01   -0.13319E-01221799   0.743E-01    0.171E+00
+RMM:   3    -0.410273555783E+03    0.18516E-01   -0.74137E-02208240   0.628E-01    0.854E-01
+RMM:   4    -0.410262678658E+03    0.10877E-01   -0.11124E-02235748   0.195E-01    0.550E-01
+RMM:   5    -0.410257446642E+03    0.52320E-02   -0.40316E-03208881   0.137E-01    0.242E-01
+RMM:   6    -0.410256833085E+03    0.61356E-03   -0.13208E-03206409   0.802E-02    0.120E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4 26
+RMM:   7    -0.410256892597E+03   -0.59511E-04   -0.43503E-04178101   0.457E-02
+   8 F= -.41025689E+03 E0= -.41029370E+03  d E =-.444466E-03  mag=    -0.0002
+ curvature:  -0.74 expect dE=-0.412E-02 dE for cont linesearch -0.463E-03
+ trial: gam= 0.00000 g(F)=  0.206E-02 g(S)=  0.350E-02 ort =-0.290E-02 (trialstep = 0.117E+01)
+ search vector abs. value=  0.556E-02
+ reached required accuracy - stopping structural energy minimisation

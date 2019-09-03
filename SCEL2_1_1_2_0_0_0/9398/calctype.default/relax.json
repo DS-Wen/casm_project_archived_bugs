@@ -1,0 +1,13 @@
+{
+  "prerun": "module list",
+  "vasp_cmd": "mpirun -np {NCPUS} /home/wen94/VASP5.4/vasp5.4.1/bin/vasp_std",
+  "queue":"titus9",
+  "walltime":"180:00:00",
+  "ppn":"20",
+  "atom_per_proc":"4",
+  "run_limit":13,
+  "nrg_convergence":0.002,
+  "npar":4,
+  "final":"/scratch/halstead/w/wen94/data_h/Ni3AlTi_supercell/training_data/settings/calctype.default/INCAR.final"
+}
+

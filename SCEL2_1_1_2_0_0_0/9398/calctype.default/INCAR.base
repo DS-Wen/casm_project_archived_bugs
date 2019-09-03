@@ -1,0 +1,15 @@
+MAGMOM = 2*0 48*1 14*0
+LCHARG = .FALSE.
+IALGO = 48
+NELM = 100
+SYSTEM = Test of VASP submission
+ENCUT = 400.0
+ISIF = 3
+IBRION = 2
+PREC = Normal
+ISPIN = 2
+ISMEAR = 1
+LWAVE = .FALSE.
+SIGMA = 0.2
+ISYM = 2
+NSW = 63

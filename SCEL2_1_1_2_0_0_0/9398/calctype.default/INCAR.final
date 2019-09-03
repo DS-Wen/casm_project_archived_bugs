@@ -1,0 +1,14 @@
+System = Test of VASP submission
+PREC = Normal
+ISMEAR = -5
+ENCUT = 400
+SIGMA = 0.2
+NSW = 0
+IBRION = -1
+ISIF = 2
+ISPIN = 2
+LORBIT = 11
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+ISYM = 2
+IALGO = 48 #previously IALGO = 48, trying 38 to improve stability
